@@ -1,0 +1,22 @@
+.card{
+    padding: 15px;
+    border: 1px solid #484a47;
+    border-radius: 4px;
+    color: #3c4c2f;
+    background-color: #dff0d8;
+    font-size: 16px;
+    text-align: center;
+    line-height: 0.5;
+    width: 100px;
+}
+
+.list{
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title{
+    text-align: center;
+}
