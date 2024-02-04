@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Уровень 8.8 задачника JavaScript</title>
+</head>
+<body>
+<!--Уровень 8.8 задачника JavaScript-->
+<!--1-->
+<label for="countries">Выберите страну:</label>
+<select id="countries" onchange="updCities()">
+    <option value="russia">Россия</option>
+    <option value="usa">США</option>
+    <option value="china">Китай</option>
+</select>
+
+<label for="cities">Выберите город:</label>
+<select id="cities"></select>
+<br>
+<br>
+<!--2-->
+<input type="number" id="number" placeholder="Введите число">
+<button onclick="testNum()">Проверить</button>
+<p id="resultNum"></p>
+
+<!--1 (Уровень 8.9 задачника JavaScript)-->
+<ul>
+    <li><a href="#" onclick="toggleMenu('submenu1')">Ссылка 1</a>
+        <ul class="submenu" id="submenu1">
+            <li><a href="#">Подссылка 1.1</a></li>
+            <li><a href="#">Подссылка 1.2</a></li>
+        </ul>
+    </li>
+    <li><a href="#" onclick="toggleMenu('submenu2')">Ссылка 2</a>
+        <ul class="submenu" id="submenu2">
+            <li><a href="#">Подссылка 2.1</a></li>
+            <li><a href="#">Подссылка 2.2</a></li>
+        </ul>
+    </li>
+</ul>
+<script src="./8.8.js"></script>
+</body>
+</html>

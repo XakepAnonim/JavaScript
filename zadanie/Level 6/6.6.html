@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Уровень 6.6 задачника JavaScript</title>
+    <link rel="stylesheet" href="./6.6.css">
+</head>
+<body>
+<!--Уровень 6.6 задачника JavaScript-->
+<!--1-->
+<input type="number" id="index" placeholder="Введите номер">
+<button onclick="showArrayElement()">Показать</button>
+<p id="result"></p>
+
+<!--2-->
+<p id="colored">Абзац</p>
+<button onclick="setColor()">Изменить абзаца</button>
+
+<!--3-->
+<table id="colorTable">
+    <tr>
+        <td onclick="changeColor(this)"></td>
+        <td onclick="changeColor(this)"></td>
+        <td onclick="changeColor(this)"></td>
+    </tr>
+    <tr>
+        <td onclick="changeColor(this)"></td>
+        <td onclick="changeColor(this)"></td>
+        <td onclick="changeColor(this)"></td>
+    </tr>
+</table><button onclick="randomizeColors()">Изменить цвета</button>
+<br>
+<br>
+<!--4-->
+<textarea id="textarea" cols="30" rows="10"></textarea>
+<div id="div">
+</div>
+<script src="./6.6.js"></script>
+</body>
+</html>
